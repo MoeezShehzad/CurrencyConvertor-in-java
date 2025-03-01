@@ -9,7 +9,7 @@ class Main{
         
         while(keepRunning){
 
-            System.out.println("Welcome to currency convertor\n Convert PKR into\n1.USD\n2.SAR\n3.Exit");
+            System.out.println("Welcome to currency convertor\n Convert PKR into\n1.USD\n2.SAR\n3.EURO\n4.AED\n5.CAD\n6.CHINA YUAN\n7.Exit");
             System.out.println("Enter choice");
             int choice = scan.nextInt();
             scan.nextLine();
@@ -21,13 +21,10 @@ class Main{
             case 2:
                 obj.SAR();
             break;
-            case 2:
-                obj.SAR();
-            break;
             case 3:
                 obj.EURO();
             break;
-            case 4
+            case 4:
                 obj.AED();
             break;
             case 5:
